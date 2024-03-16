@@ -2,7 +2,7 @@ from utils import os, load_dotenv
 from telethon import TelegramClient
 
 class BotState:
-    channel_usernames = ["Spotify_yt_downloader"]
+    channel_usernames = ["botio_devs"]
     user_states = {}
 
     load_dotenv('config.env')
